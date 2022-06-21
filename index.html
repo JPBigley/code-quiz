@@ -4,25 +4,20 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Code Quiz</title>
 	</head>
 	<body>
-		<!-- Highscores and Timer -->
-		<nav>
-			<div class="highScore"><a href="#">View High Scores</a></div>
-			<div class="timer">
-				<a href="#">
-					Time:
-					<span id="timeLeft">0</span>
-				</a>
+		<h1>Code Quiz</h1>
+		<div id="container">
+			<div id="startPage">
+				<div id="startQuiz">Click button to start quiz</div>
+				<button id="startButton">Start Quiz</button>
 			</div>
-		</nav>
 
-		<!-- Quiz -->
-		<div id="quiz">
-			<h1>JavaScript Code Quiz</h1>
-			<p>Test your JavaScript knowledge!</p>
-			<button>Start!</button>
+			<div id="quizPage">
+				<div id="question"></div>
+				<div id="answers"></div>
+			</div>
 		</div>
 	</body>
 </html>
